@@ -1,0 +1,9 @@
+# 忽略上传的文件或文件夹，每行只填一个
+.idea
+wp-content/themes/**/*.php
+wp-content/themes/**/*.php*
+wp-content/themes/**/*.so
+wp-content/themes/**/*.dll
+wp-content/plugins/**/*.php
+/map/
+/jsDelivrBak/

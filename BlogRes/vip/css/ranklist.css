@@ -1,0 +1,143 @@
+@charset "utf-8";
+/* CSS Document */
+body{ background: #eff1f4; }
+em{font-style:normal}
+.deanrankbg{ height:200px; padding:30px 0; width:100%; background:#ffbd13 url(/vip/img/rankbg.png) top center no-repeat;}
+.deanranklist{ width:1180px; min-height:300px; margin:0 auto;  padding-bottom:60px; border-radius:6px; margin-top:-60px;}
+	.deanrankname ul{}
+		.deanrankname ul li{ width:33.333%; text-align:center; height:70px; float:left; cursor:pointer; position:relative; }
+			.deanrankname ul li i{ padding-right:10px;}
+			.deanrankname ul li em{ display: block;  width: 100%; color: #6a6a6a; font-size: 18px; line-height: 70px; height: 70px; overflow: hidden; text-align: center; background: #f8f8f8; position: absolute; left: 0; bottom: 0;}
+		.deanrankname ul li.cur em{ background: #fff; height: 80px; line-height: 80px; -webkit-border-radius: 6px 6px 0 0; border-radius: 6px 6px 0 0; color: #FF6700;}
+		.deanrankname ul li:after { content: ""; display: block; width: 0; height: 10px; position: absolute; top: 50%; border-right: 1px solid #e8e8e8; height: 20px; margin-top: -10px; right: 0;}
+.deanrankc{ }
+	.deanrankc ul{}
+		.deanrankc ul li{ display:none; }
+			.deanrankc ul li dl{}
+				.deanrankc ul li dl dd{ width:1100px; padding:40px 40px;background:#fff; border-bottom: 1px solid #f6f6f6; -webkit-transition: all .2s; -o-transition: all .2s; transition: all .2s; }
+				.deanrankc ul li dl dd:hover{  background: #f8fbff;}
+					.deandds1{ float:left; margin-right:40px; }
+						.deandds1 span{ display:block; width:30px; height:30px; text-align:center; line-height:30px; border-radius: 100%; background: #ededed; color: #b3b3b3; font-size: 14px; margin-top:40px;}
+						.deandds1 span.deanspan1{ height:36px; line-height:43px; color:#fff; background:url(/vip/img/num1.png) 0 0 no-repeat; margin-top:20px;}
+						.deandds1 span.deanspan2{ height:36px; line-height:43px; color:#fff; background:url(/vip/img/num2.png) 0 0 no-repeat; margin-top:20px;}
+						.deandds1 span.deanspan3{ height:36px; line-height:43px; color:#fff; background:url(/vip/img/num3.png) 0 0 no-repeat; margin-top:20px;}
+					.deandds2{ float:left;  margin-right:30px; }
+						.deandds2 img{ width:150px; height:100px; border-radius:6px;  -webkit-transition: all .2s; -o-transition: all .2s; transition: all .2s;}
+						.deandds2 a:hover img{ opacity:0.9;}
+					.deandds7{ float:left;  margin-right:30px; }
+						.deandds7 img{ width:50px; height:50px; border-radius:90px;  -webkit-transition: all .2s; -o-transition: all .2s; transition: all .2s;}
+					.deandds3{ float:left;  margin-right:80px; }
+						.deandds3 a{ display:block; width:300px; padding-top:30px; font-size:16px; color:#3c3c3c; overflow:hidden; line-height:22px; -webkit-transition: all .2s; -o-transition: all .2s; transition: all .2s;}
+						.deandds3 a:hover{ color: #3385ff;}
+						.deandds8 a{ padding-top:20px; display:block; }
+						.deandds8 p{ line-height:22px; font-size:14px; color: #a5a8b1; margin-top:8px; }
+					.deandds4{ float:left;  margin-right:60px; line-height:80px; width:120px;}
+					.deanddspp{ float:left; margin-right:40px; }
+					.deanddspp span {
+    display: block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 100%;
+    background: #ededed;
+    color: #b3b3b3;
+    font-size: 14px;
+    margin-top: 10px;
+}
+						.deandds4 a{ -webkit-transition: all .2s; -o-transition: all .2s; transition: all .2s; color: #a5a8b1; font-size:14px;}
+						.deandds4 a:hover{ color: #3385ff;}
+					.deandds5{ float:left;  line-height:80px; width:120px;}
+						.deandds5 a{ -webkit-transition: all .2s; -o-transition: all .2s; transition: all .2s; color: #a5a8b1; font-size:14px;}
+						.deandds5 a:hover{ color: #3385ff;}
+					.deandds6{ float:right; color: #a5a8b1; font-size:14px;  line-height:80px;}
+						.deandds6 span{ color: #ff7300;}
+			#deanmore{ height:60px; line-height:60px; margin-top:30px; letter-spacing:1px; display:block; background:#3385ff; border:1px solid #3385ff; text-align:center; font-size:18px; border-radius:3px; cursor:pointer;  color: #fff;}
+				#deanmore i{  display: inline-block; margin-left: 5px; -moz-animation: spin 2s infinite linear; -o-animation: spin 2s infinite linear; -webkit-animation: spin 2s infinite linear; animation: spin 2s infinite linear; font-size: 18px;}	
+				#deanmore:hover{ opacity:0.9;}
+			#more{ height:60px; line-height:60px; margin-top:30px; letter-spacing:1px; display:block; background:#fff; border:1px solid #f6f6f6; text-align:center; font-size:18px; border-radius:3px; cursor:pointer;  color: #a5a8b1;}
+			
+			
+			
+@media screen and (max-width: 768px){			
+.deanranklist {
+    width: 100%;
+}	
+.deanrankname ul li em {
+    font-size: 14px;
+
+}
+.deanrankname ul li:after{
+    border: none;
+}
+.deanrankc ul li dl dd {
+    width: auto;
+    padding: 30px 15px;
+}
+.deandds1 {
+    margin-right: 15px;
+}
+.deandds2 img {
+        width: 100%;
+    height: 150px;
+}
+
+.deandds3 a {
+    display: block;
+   width: auto;
+    font-size: 14px;
+
+}
+.deandds2 {
+    margin-right: 0;
+    width: calc(100% - 45px);
+}
+.deandds3 {
+    float: left;
+    margin-left: 48px;
+    width: calc(100% - 45px);
+}
+.deandds4 {
+    margin-right: 0;
+    margin-left: 48px;
+    width: 90px;
+
+
+}
+.deandds1 span.deanspan1,.deandds1 span.deanspan2,.deandds1 span.deanspan3 {
+
+    margin-top: 40px;
+}
+
+.deandds4 a,.deandds5 a,.deandds6{
+    font-size: 12px;
+}
+.gold-top-list .deandds2,.gold-top-list .deandds2 img{
+        width: 50px;
+        height: 50px;
+        margin-right: 15px;
+}
+
+.deanddspp {
+    margin-right: 15px;
+}
+
+
+}			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			

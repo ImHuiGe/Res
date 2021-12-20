@@ -1,0 +1,789 @@
+
+/*白天模式*/
+
+body.night #loader-wrapper .loader-section {
+    background: #fff0;
+}
+
+/*夜间按钮*/
+
+body.night .my_switcher ul li a {
+    color: #f9f9f9;
+    border: 2px solid #2882c5;
+    background: #2882c5;
+}
+
+body.night .my_switcher ul li a.active {
+    color: #2882c5;
+    background: #fff;
+    border-color: #2882c5;
+}
+
+body.night .dark {
+    box-shadow: inset -1px -1px 0px rgba(0,0,0,0), inset 1px 1px 4px rgba(0,0,0,0);
+}
+
+body.night .light {
+    box-shadow: inset -1px -1px 0px #2882c5, inset 1px 1px 4px #292a2d;
+}
+
+/*夜间按钮结束*/
+
+/*标题栏目*/
+body.night .base-header h3 {
+  color: #f0f0f0;
+}
+
+body.night .base-header h3::after {
+  background: #2882c5;
+}
+
+body.night .base-header h3:before {
+  background: #2882c5;
+}
+/*标题栏目结束*/
+
+/*夜间登录背景*/
+body.night .login-box-img {
+    background: linear-gradient(314deg,#946801 0%,#2882c5 100%);
+}
+/*夜间登录背景*/
+
+body.night .header-login-button button {
+    border: 1px solid #333 !important;
+    background: #333 !important;
+}
+
+body.night .login-bottom button {
+    background: #2882c5 !important;
+    border: 1px solid #2882c5 !important;
+}
+
+/*style*/
+@media screen and (max-width: 768px){
+body.night .menu-icon {
+    background: #333;
+    }
+    
+body.night .login-button .b2-account-circle-line {
+    color: #aaaeb3;
+}    
+    
+body.night .menu-icon .line-1,body.night .menu-icon .line-2,body.night .menu-icon .line-3 {
+    background-color: #aaaeb3;
+    }  
+body.night .login-button .b2-user {
+    color: #aaaeb3;
+    }    
+body.night .mobile-show {
+    border: 1px solid rgba(255,255,255,0) !important;
+    }
+body.night .mobile-footer-menu {
+    background: #252829;
+    }
+body.night .mobile-footer-center button {
+    background: 0;
+    border: 0;
+    }
+body.night .show-menu-box .top-menu .top-menu-ul {
+border-left: 1px solid #272a2b;
+    }
+
+body.night .top-menu ul li.depth-0 > a:after {
+background: #272a2b;
+    }
+body.night .show-menu-box .top-menu .sub-menu {
+background: #272a2b;
+    }
+body.night .show-menu-box .top-menu .sub-menu a {
+color: #909399;
+    }
+body.night .logo-left .mobile-box,body.night .top-menu-ul>li.depth-0>a i.b2-arrow-down-s-line {
+    background: #292a2d;
+    }
+body.night .top-menu ul li.depth-0>a {
+    background: #292a2d;
+    }
+body.night .header-tools {
+    background-image: url(//cdn.jsdelivr.net/gh/ImHuiGe/Res@www.haah.net/wp-content/themes/b2child/Assets/Js/night/imgs/1535f418aeee12.png);
+    }
+body.night .close-button {
+    color: #ddd!important;
+}
+body.night .ubanner-ctn h2 {
+	font-size: 22px !important;
+}
+
+}
+
+body.night .ye {
+	color: #2882c5;
+}
+body.night .poster {
+	filter: sepia(0) grayscale(1) brightness(38%);
+}
+body.night .single-article h1 {
+    background: url(//cdn.jsdelivr.net/gh/ImHuiGe/Res@www.haah.net/wp-content/themes/b2child/Assets/Js/night/imgs/texure.jpg);
+    background-repeat: repeat-x;
+    background-position: 100% 100%;
+    color: transparent;
+    -webkit-font-smoothing: antialiased;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+body.night .post-style-5 header h1 {
+    background: url(//cdn.jsdelivr.net/gh/ImHuiGe/Res@www.haah.net/wp-content/themes/b2child/Assets/Js/night/imgs/texure.jpg);
+    background-repeat: repeat-x;
+    background-position: 100% 100%;
+    color: transparent;
+    -webkit-font-smoothing: antialiased;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 400;
+}
+
+body.night .ubanner-ctn h2 {
+	text-align: center;
+	color: #fff;
+	font-size: 46px;
+	font-weight: 600;
+	margin-bottom: 65px;
+	letter-spacing: 1px;
+	text-shadow: 0 3px 6px rgba(0,0,0,0.2);
+	background: url(//cdn.jsdelivr.net/gh/ImHuiGe/Res@www.haah.net/wp-content/themes/b2child/Assets/Js/night/imgs/texure.jpg);
+    background-repeat: repeat-x;
+    background-position: 100% 100%;
+    color: transparent;
+    -webkit-font-smoothing: antialiased;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/* 侧栏文章列表样式 */
+body.night .b2-widget-hot ul .widget-post:hover {
+    cursor: pointer;
+    background: linear-gradient(225.08deg,#2d3031 0%,#161819 96.09%);
+    box-shadow: 1px 1px 2px #323638, -1px -1px 0px #292a2d;
+}
+
+body.night .widget-area .box h2 {
+    color: #ffffff8f;
+}
+
+body.night .link-overlay:hover {
+    color: #2882c5;
+    text-decoration-line: none;
+}
+/* 侧栏文章列表样式 */
+body.night .post-next .post-pre-next-info:hover {
+    cursor: pointer;
+    background: linear-gradient(225.08deg,#161819 0%,#2d3031 96.09%);
+    box-shadow: 1px 1px 2px #292a2d, -1px -1px 0px #292a2d;
+}
+
+body.night .post-pre .post-pre-next-info:hover {
+    cursor: pointer;
+    background: linear-gradient(225.08deg,#2d3031 0%,#161819 96.09%);
+    box-shadow: 1px 1px 2px #292a2d, -1px -1px 0px #292a2d;
+}
+body.night .b2-menu-3 .sub-menu-0>li:hover>a, .b2-menu-3 .sub-menu-0 a:hover {
+    background: linear-gradient(225.08deg,#262829 0%,#292a2d 96.09%);
+}
+
+body.night .widget ul li,body.night .aside-bar div>div+div{
+    border-top:1px solid rgba(255,255,255,0)!important;
+}
+
+body.night .top-user-box-drop .avatar {
+    border: #292a2d;
+}
+
+body.night .home-section-division,body.night .user-money,body.night .user-credit,body.night .site-terms,body.night .post-user-info,body.night .b2-audio-start-bar-box,body.night .post-tags-meat a .tag-img, body.night .content-hidden-info,body.night .widget-circle-info-desc,body.night .widget .recommended-widget li.picked a,body.night .comment-footer-tools .comment-vote-hidden button,body.night .comment-list button.text,body.night .user-sidebar-count li,body.night .following-info-desc,body.night .home-collection-image .collection-number.ar,body.night .insert-post,body.night .gold-page-list li:nth-child(odd),body.night .dmsg-content p,body.night .widget-new-header .ps1,body.night .widget-news-user,body.night .widget-new-header .ps a,body.night .pager-center,body.night .entry-content blockquote,body.night .post-content-footer .content-footer-poster button,body.night .collection-button,body.night .top-search .header-search-select,body.night .ds-textarea textarea,body.night input:focus,body.night .ds-item input,body.night .dmsg-textarea,body.night .desc textarea:focus,body.night .user-credit{
+	background: #212425!important;
+}
+
+body.night .user-sidebar-count li,body.night .ds-textarea textarea {
+    border: 5px solid #212425;
+}
+
+body.night .user-money,body.night .user-credit {
+    text-shadow: 0px 0px 0px rgba(0,0,0,0);
+    color: #fff;
+}
+
+body.night, body.night #body, body.night .page_navi a.current {
+    background-color: #292a2d!important;
+    color: #adb5bd!important;
+}
+
+body.night #sidebar, body.night .next-page a,body.night .com-form>.b2-radius {
+    background-color: #292a2d;
+    color: #888282;
+}
+body.night .home-section-division .home-division li h3 .go,body.night .bar-top,body.night .yarpp-related ol li:before {
+    background: #2882c5;
+}
+body.night .home-section-division .home-division a:hover .item-thumb,body.night .home-section-division .home-division a:hover h3,body.night .tax-info-item .fliter-button:hover,body.night .pay-type li>button {
+	color: #2882c5
+}
+body.night .home-section-division .home-division a {
+    color: #525252;
+}
+@media (min-width:1024px) {
+	body.night .home-section-division .home-division li.li_4 .item {
+		background: #131313;
+		color: #2882c5
+	}
+	body.night .home-section-division .home-division li.li_4 .item:hover {
+		background: #2882c5;
+		color: #fff
+	}
+}
+
+body.night .lv-icon.user-lv i,body.night .custom-page-row.gold-row,body.night .modal.address-box .pay-box-content li.picked,body.night .pay-box-content li:hover,body.night .sah-catlist a,body.night .gujia .s-a-c-l h2,body.night .gujia .sah-name,body.night .gujia .sah-date,body.night .gujia .sah-r>div,body.night .gujia .sah-avatar,body.night .gujia .saf-z button,body.night .gujia .item-content::before,body.night .gujia .item-content::after {
+    background-color: #292c2d;
+}
+
+body.night .bar-middle,body.night .bar-footer,body.night .aside-container .bar-user-info,body.night .bar-normal {
+    box-shadow: -8px 0px 35px 0px rgba(0,0,0,0);
+}
+body.night .bar-user-info-row-title>a,body.night .related-posts .related-posts-title,body.night .post-3 .post-modules-top, .post-5 .post-modules-top,body.night .topic-vote-desc,body.night .home-collection-row-1,body.night .news-item ul,body.night .dmsg-list li {
+    border-bottom: 1px solid rgba(255,255,255,0);
+}
+body.night .bar-mission .mission-today-list li,body.night .topic-type-menu,body.night .post-5 .load-more,body.night .post-5 .b2-pagenav,body.night .news-item+.news-item,body.night .news-item li+li,body.night .task-day-list li {
+    border-top: 1px solid rgba(255,255,255,0);
+}
+body.night .related-posts .related-posts-item,body.night .top-search-select {
+    border-right: 1px solid rgba(255,255,255,0);
+}
+body.night .next-jt i {
+    background-color: rgba(255,255,255,0);
+}
+body.night .login-social-button-bottom,body.night .post-content-footer .content-footer-poster button {
+    border: 1px solid rgba(0,0,0,0);
+}
+body.night .login-form-item input:focus {
+    border-color: #2882c5;
+}
+body.night .login-eye .b2-eye-open,body.night .login-form-item input:focus + span,body.night .entry-content a:hover,body.night .tax-search button i,body.night .b2-audio-button {
+    color: #2882c5;
+}
+
+body.night .user-w-logon:after {
+    background-image: linear-gradient(0deg,#292a2d 0,rgb(29, 31, 32) 100%);
+}
+
+body.night .oauth-login-button {
+    border-top: 1px dashed #444;
+    border-bottom: 1px dashed #444;
+    background: #292a2d;
+}
+
+body.night .comment-overlay {
+    background-color: rgba(29, 31, 32, 0.91);
+}
+
+body.night .open-message{
+    background: #292a2d!important;
+    color: #adb5bd!important;
+}
+
+body.night .bar-user-info-row .user-w-rw span,body.night .comment-info span,body.night .widget-new-header span b,body.night .dz6fwq i,body.night input:focus,body.night textarea:focus {
+    color: #fff;
+}
+
+body.night .content-hidden-info {
+    background-image: none;
+}
+body.night .post-5 .post-info h2::before,body.night .user-w-announcement li a::before,body.night .tax-fliter-hot .order-items a:hover {
+    background-color: #2882c5;
+}
+
+/*
+ * 无图文章列表浮动
+ */
+body.night .post-5 .b2_gap {
+    margin-top: 10px;
+    margin-right: 0;
+    background: #313131;
+}
+body.night .post-5 .b2_gap > li {
+    background: #292a2d;
+    margin: 0;
+    transition: all .3s;
+    border-right: 0;
+    border-bottom: 1px solid #272a2b;
+    border-left: 1px solid #272a2b;
+    box-shadow: none;
+}
+body.night .post-5 .b2_gap > li:hover {
+    -webkit-box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 10px 20px #121415
+    -webkit-transform: translateY(-3px);
+    -ms-transform: translateY(-3px);
+    transform: translateY(-3px);
+    position: relative;
+    z-index: 5;
+}
+
+body.night .b2_gap > li .item-in {
+    transition: all .3s;
+}
+/** 文章卡片 */
+body.night .soft-area {
+    border: 1px solid #292a2d;
+    background: #292a2d;
+}
+
+body.night .post-style-6-meta {
+    background-color: #212425;
+    box-shadow: 0px 0px 2px #323638, inset 0px 2px 3px #151617;
+}
+
+body.night .post-style-6-meta .meta_left span {
+    color: #fff;
+}
+
+body.night .post-style-6-top .info6fwq li {
+    border-bottom: 1px solid #666;
+    color: #aaaeb3;
+}
+
+body.night .site-content .soft-area .area-c .soft-detail h1 {
+    color: #fff;
+}
+
+body.night .post-style-6-top .dz6fwq a {
+    background: linear-gradient(90deg,#2882c5,#c58f11);
+}
+
+body.night .post-style-6-top .dz6fwq a:hover {
+    background: linear-gradient(90deg,#e8a711,#2882c5);
+}
+
+body.night .post-style-6-top .dz6fwq a:hover {
+    box-shadow: 0px 5px 10px #ffd77945;
+}
+
+body.night .post-style-6-top .info6fwq li:before {
+    background: #2882c5;
+}
+/* h3搜索标题 */
+body.night .insearch {
+    line-height: 1.5;
+    background-image: linear-gradient(135deg,#232425,#292a2d),linear-gradient(-90deg,#1e1f20 0%,#696969 100%);
+    /* border-bottom: .1rem solid; */
+    border-image: linear-gradient(-90deg, #1e2021, #2882c5);
+	font-size: 22px !important;
+	padding: 6px;
+	filter: drop-shadow(-4px 0 0 #2882c5);
+}
+body.night .insearch:before {
+    margin-right: 6pt !important;
+    color: #2882c5 !important;
+    content: "\e622" !important;
+    right: 0;
+}
+
+body.night .entry-content>h3 {
+    margin: 30px 0 30px 0 !important;
+}
+/** 下载卡片 */
+body.night .download-item {
+    padding: 40px;
+    margin-top: 60px;
+    background: #2E3138;
+    border: 1px solid #333740;
+    box-sizing: border-box;
+    box-shadow: inset -1px -1px 0px #292a2d, inset 1px 1px 4px #292a2d;
+}
+
+body.night .download-rights {
+    background: linear-gradient(225.08deg, #535966 0%, #2E3138 96.09%);
+    box-shadow: 0px 2px 8px rgba(26, 28, 31, 0.79652);
+}
+
+body.night .download-info {
+    background: linear-gradient(225.08deg, #3d414a 0%, #2E3138 96.09%);
+    box-shadow: 0px 2px 8px rgba(26, 28, 31, 0.79652);
+}
+
+body.night .download-info ul {
+    display: flex;
+    flex-flow: wrap;
+    padding: 10px;
+    margin: 0;
+    list-style: none;
+    background: #2e3138;
+    box-shadow: 0px 0px 2px #535966, inset 0px 2px 3px #1A1C1F;
+}
+
+body.night .post-style-6 .download-current {
+    background: #2e3138;
+    box-shadow: 0px 0px 2px #535966, inset 0px 2px 3px #1A1C1F;
+}
+
+body.night .entry-content .button {
+    border: 1px solid #313540;
+    background: linear-gradient(225.87deg,#393d46 2.76%,#26282d 94.28%);
+    font-weight: 600;
+}
+
+body.night .download-rights ul li {
+    border-top: 1px dashed #2a2c31;
+}
+
+body.night .entry-content .button:hover {
+    background: linear-gradient(225.87deg,#2a2d33 2.76%,#2a2c32 94.28%);
+    color: #fff;
+    box-shadow: 1px 1px 0px #141618, -1px -1px 1px #535966;
+}
+
+body.night .download-button-box a{
+    color: #fff;
+}
+
+body.night .download-list.gujia .gujia-bg {
+    background-color: #252627;
+}
+
+body.night .download-list.gujia .download-button-box div {
+    background-color: #252627;
+}
+body.night .lv-icon.user-lv i {
+    padding: inherit;
+    margin-left: 0;
+}
+/*style end*/
+
+/*夜间样式开始*/
+
+
+body.night #content .post p a, body.night .floor {
+    color: #af8f77;
+}
+
+
+body.night a, body.night a:link, body.night a:visited,body.night .topic-comment-left textarea,body.night .name,body.night .item-title,body.night .nav-name,body.night .top-user-box-drop .top-user-info-box-count p,body.night .top-user-info-box-name h2,body.night .home-section-division .home-division li h3,body.night .bar-mission .user-w-qd-list-title p,body.night .login-title span,body.night .item-content .b2-out{
+    color: #adb5bd;
+}
+body.night #comments form textarea, body.night #comments form input {
+    background-color: #292a2d;
+    color: #888282;
+}
+body.night #content .menufeng {
+    border-bottom: 1px solid #989292;
+}
+
+body.night .author-edit-page .author-edit-list>li,body.night .vip-top,body.night .collection-info,body.night .stream-article,body.night .stream-area .b2-pd {
+    border-bottom: 1px solid #232627;
+}
+
+body.night .vip-allow.allow {
+    color: #676c6f;
+}
+
+body.night #comments form textarea, body.night #comments form input, body.night #shangerweima {
+    border: 1px solid #989292;
+}
+
+body.night .topic-comment-list,body.night .topic-comment-list-header,body.night .topic-lv1+.topic-lv1,body.night .topic-comment-list-footer,body.night .user-panel .avatar,body.night .com-form-textarea,body.night .ds-item,body.night .pay-type li>button {
+    border: 1px solid #242627;
+}
+
+body.night #nav .menu ul{
+    background: #292a2d;
+}
+body.night .site,body.night .widget-comment-contnet,body.night .circle-desc,body.night .po-topic-textarea textarea:first-child,body.night .post-list-cats a span,body.night .top-style-blur,body.night .shop_bg,body.night .news-header,body.night .news-item-header span.new-tag,body.night .news-item-header span,body.night .news-header .banner .banner-text .btn,body.night .com-form-textarea textarea,body.night .content-excerpt,body.night .shop-single-data-count button,body.night .shop-single-data li.shop-single-data-price,body.night .shop-single-data-count input,body.night .single-document-footer,body.night .document-cat-item:hover,body.night .content-ds,body.night .message-content p.comment span,body.night .topic-comment-form,body.night .topic-child-list ul,body.night .topic-footer-left button,body.night .topic-meta-more-box ul,body.night .topic-loading-more-button,body.night .entry-content p > code,body.night .post-tags-meat a,body.night .b2-light-dark-outside,body.night .filter-items a,body.night .topic-image-light,body.night .user-w-rw,body.night .user-credit,body.night .vip-count ul li .vip-in,body.night .mission-tk,body.night .top-user-box-drop.show,body.night .top-user-info-box .user-w-gold a i,body.night .tax-fliter-hot,body.night .bar-user-info-row .user-w-gold div,body.night .mission-page-list li:nth-child(even),body.night .modal-content{
+    background:#292a2d;
+}
+body.night .bar-normal,body.night .box,body.night .span4,body.night .footer-fav,body.night .post-5 .b2_gap,body.night .news-item-header span::after,body.night .tbox,body.night .buy-resout-box,body.night .news-item-header b,body.night .sub-menu,body.night .topic-comment-form.show textarea,body.night .content-hidden-before i,body.night .content-hidden-end span,body.night .tax-fliter-cat,body.night .tax-search input,body.night .bar-item-desc,body.night .boxt,body.night .nav-detail-portfolio-wrapper,body.night .author-page-right,body.night .po-topic-box-tips{
+    background:#323335;
+}
+
+body.night .bar-footer,body.night .aside-container .bar-user-info,body.night .bar-user-info-row,body.night .user-w-tj,body.night img.avatar,body.night .topic-card-box li,body.night .topic-video-box li>div video,body.night .topic-guess-box,body.night .widget .recommended-widget li a:hover,body.night .collection-posts li span,body.night .dmsg-list li:hover,body.night .mask-wrapper {
+    background-color: #323335;
+}
+
+body.night .button,body.night button {
+    /*background: #2882c5;*/
+    /*border: 1px solid #2882c5;*/
+}
+
+body.night button.empty,body.night .button.empty {
+    background: #333;
+}
+
+body.night .search-button-action,body.night .login-eye.button,body.night .my-circle-list>div>button,body.night .topic-drop>button,body.night .tax-search button,body.night .change-theme button,body.night .po-post-icons button,body.night .po-close-button button,body.night .gold-list-row-5,body.night .gold-list-row-1,body.night .gold-list-row-2,body.night .gold-list-row-3,body.night .gold-list-row-4,body.night .gold-page-list,body.night .site-footer .widget-title,body.night button,body.night .po-topic-top-right button,body.night .topic-type-menu>ul li button,body.night .po-ask button,body.night .topic-footer-right button,body.night .topic-author-info-right button,body.night .mfp-iframe-holder .mfp-close,body.night .tax-info-item .fliter-button,body.night .login-box-content .login-social-button-bottom a {
+    background: 0 0;
+    border: 0;
+}
+
+body.night button.empty,body.night .button.empty,body.night li.current-menu-item > a,body.night .topic-comment-content:hover button,body.night .top-menu-hide:hover .more,body.night .header .top-menu ul li.depth-0:hover > a .b2-jt-block-down,body.night button.text,body.night .entry-content a.button.empty,body.night .entry-content a.button.text,body.night .user-sidebar-info.active p {
+    color: #2882c5;
+}
+
+.b2-light, .newsflashes-nav-in ul li.current-menu-item a {
+    background-color: #2882c512;
+}
+
+body.night .user-w-rw,body.night .user-credit{
+    text-shadow:none;
+}
+body.night .user-w-qd-list-title{
+   background-color:rgb(0, 88, 255,0.66); 
+}
+body.night .user-w-rw-bg,body.night .po-topic-button,body.night .topic-type-menu button.picked,body.night .btn-orange,boby.night .user-w-announcement li a::before{
+    background-color: #2882c5;
+    color: #fff;
+}
+body.night .b2-color,boby.night .po-topic-top-right .picked,body.night .top-user-box-drop li a i{
+    color: #2882c5!important
+}
+body.night #public .topic-type-menu {
+    background: rgba(41, 48, 66, 0.4);
+}
+
+body.night .wenzi,body.night .news-item-content p,body.night .news-header .banner .banner-text h4,body.night .topic-footer-right button,body.night .user-w-tj span {
+    color: #9a9a9a;
+}
+
+body.night .gdd-quick-link-buy-vip__hover-block,body.night .gdd-quick-link-buy-vip__popover--btn,body.night .gdd-quick-link-buy-vip,body.night .gdd-quick-link-buy-vip__popover {
+    background-color: #2882c5;
+    color: #fff;
+}
+
+body.night .widget-comment-contnet.jt:before, body.night .widget-comment-contnet.jt:after,body.night #public .my-circle-list button.picked:before,body.night #public .my-circle-list button.picked:after {
+    border-bottom-color: #202634;
+}
+body.night .shop-box-price {
+    background: #242a38;
+    border-top:none;
+    border-bottom: none;
+}
+
+body.night .post-pay-type .post-pay-type-icon{
+    color: #3e74a3;
+}
+
+body.night .comment-list button.text,body.night .top-search .header-search-select {
+    border: 1px solid #212425;
+}
+
+body.night .top-menu ul li.depth-0 > a,body.night  .change-theme a i ,body.night .topic-type-menu li button{
+    color: #adb5bd!important
+}
+body.night .b2-widget-title h2, .widget > h2{
+    color: inherit;
+}
+
+body.night .topic-child-list li + li {
+    border-top: 1px dashed #293042;
+}
+body.night .topic-comments:before{
+    border-color: transparent transparent #202634;
+}
+
+body.night .widget-uisdc-helper .uisdc-helper-title {
+    color: #2882c5;
+    background: #222425;
+}
+
+body.night .custom-page-row.gold-row+.custom-page-row.gold-row {
+    border-left: 10px solid #292a2d;
+}
+
+body.night .download-thumb::before {
+    background: -webkit-radial-gradient(right top, ellipse cover, rgba(250, 250, 250, 0) 8%,rgb(41, 48, 66) 73%);
+    background: radial-gradient(right top, ellipse cover, rgba(250, 250, 250, 0) 8%,rgb(41, 48, 66) 73%);
+}
+
+
+body.night .home_row,body.night .post-modules-top,body.night .post-5{
+    background: rgba(0,0,0,0)!important;
+}
+
+
+body.night .b2-widget-comment,body.night .b2-widget-products,body.night .b2-widget-hot,body.night .po-topic-textarea,body.night .com-form-textarea textarea,body.night .topic-comment-list > ul,body.night .topic-comment-avatar,body.night .circle-info-left img,body.night .left-item img,body.night .logo-wrapper,body.night .mission-page-list ul{
+    border: 1px solid #202634;
+}
+body.night .box-header,body.night .site-title,body.night .shop-single-action-right .favorite-button,body.night .tax-info-item .fliter-button {
+    color: #fff;
+}
+
+body.night .comment .comment-item,body.night .post-5 ul.b2_gap > li,body.night .user-w-tj,body.night .user-w-rw,body.night .document-row + .document-row,body.night .has_children .sub-menu,body.night .post-tags-meat,body.night .none-comment,body.night .topic-comments,body.night #filter-top ul li + li,body.night .b2-b-t,body.night .circle-widget-button,body.night .list-footer,body.night .vip-faq-list + .vip-faq-list,body.night .custom-page-row + .custom-page-row,body.night .no-request,body.night .request-box li{
+    border-top: 1px solid #212425!important;
+}
+
+body.night .post-user-info,body.night .po-topic-textarea textarea:first-child,body.night .my-circle-list,body.night .user-w-rw,body.night .shop-single-attr-title,body.night .single-bottom h3,body.night .shop-single-data li,body.night .dmsg-header,body.night .message-list li,body.night .box-header,body.night .author-links,body.night .custom-page-title,body.night .entry-header{
+    border-bottom: 1px solid rgba(114, 114, 114, 0.1);
+}
+
+body.night .my-circle-list > div + div {
+    border-left: 1px solid #202634;
+}
+body.night .post-5 ul.b2_gap > li {
+    border-right: 1px solid #202634;
+}
+
+body.night .shop-single-img-box,body.night .shop-single-data-count button,body.night .shop-single-data-count input,body.night .content-ds,body.night .post-tags-meat a,body.night .po-topic-tools-right button,body.night .widget-mission-footer a {
+    border: none;
+}
+
+
+body.night .post-3 .post-3-li .item-in:hover {
+    background-color: #212425;
+    color: #ff6800;
+}
+
+body.night .entry-content,body.night .comment-content-text p,body.night .shop-single-data-count input,body.night .news-header .banner .banner-text h2,body.night .message-content p.comment span{
+    color: #adb5bd;
+}
+
+
+
+body.night .comment-list .children article .comment-item {
+    border: none;
+    background: #292a2d;
+}
+body.night .block-logo,body.night .banner-img {
+    display: none;
+}
+body.night .news-header .banner{
+    display: block;
+    margin: 50px 0;
+}
+body.night .news-header .banner .banner-text{
+    width: auto;
+}
+
+.logo .light-logo{
+    display: none;
+}
+body.night .light-logo {
+    display: block;
+}
+body.night .entry-content > hr {
+
+    background-image: -webkit-linear-gradient(left, #202634, #8c8b8b, #202634);
+    background-image: -moz-linear-gradient(left, #202634, #8c8b8b, #202634);
+    background-image: -ms-linear-gradient(left, #202634, #8c8b8b, #202634);
+    background-image: -o-linear-gradient(left, #202634, #8c8b8b, #202634);
+
+}
+body.night .shop-single-data li.shop-single-data-price{
+    background-image:none;
+}
+body.night .content-hidden-info {
+    border: 1px dashed rgba(178, 186, 194, 0.17);
+}
+
+body.night .buy-vip__hover-block,body.night .buy-vip__popover,body.night .buy-vip__popover--btn{
+    background-color: #0058ff!important;
+}
+
+body.night .buy-vip__popover--btn,body.night .header-user .iconday,body.night .b2-widget-hot-circle .b2-widget-title button{
+    color: #fff;
+}
+body.night .buy-vip__popover--desc{
+    color:#0058ff ;
+}
+
+body.night .modal-content {
+    background-image: url(//cdn.jsdelivr.net/gh/ImHuiGe/Res@www.haah.net/wp-content/themes/b2child/Assets/Js/night/imgs/1535f418aeee12.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+body.night .top-user-info-box {
+    background-image: url(//cdn.jsdelivr.net/gh/ImHuiGe/Res@www.haah.net/wp-content/themes/b2child/Assets/Js/night/imgs/202001191456.jpg);
+}
+
+body.night .header-search-select .select,body.night .header-search-select a:hover {
+    background: #272a2b;
+}
+
+body.night .b2-menu-3 a:after{
+background: linear-gradient(225.08deg,#292a2d 20%,#2882c5 90.09%);
+}
+
+/*加载中背景*/
+body.night .gujia .bg,body.night .widget .widget-gujia-hot-circle .widget-circle-info h2,body.night .widget-gujia-hot-circle .widget-circle-icon,body.night .widget-gujia-hot-circle .widget-circle-meta span,body.night .topic-guess-box,body.night .post-thumb,body.night .widget-gujia-user .user-w-announcement>div,body.night .mission-gujia .user-w-qd>div,body.night .mission-gujia .user-mission-info-left,body.night .mission-gujia .avatar-parent,body.night .dmsg-self .my-dmsg-content,body.night .my-dmsg-content,body.night table td {
+    background: #272a2b;
+}
+
+body.night .preloader {
+    background-color: rgb(0 0 0 / 80%);
+}
+
+body.night .preloader-loding {
+    color: #2882c5;
+}
+
+body.night .preloader-lod,body.night .large-square {
+    background: #2882c5;
+}
+body.night .header-banner{
+    background-color: #292a2d;
+}
+body.night .social-top .header{
+    border-top: 1px solid #292a2d;
+}
+/*灰白色字体*/
+body.night .change-theme button i,body.night .button.empty,body.night .home-first .hf-widget,body.night .home-first .hf-widget .hf-widget-title a,body.night .ceo-cat-switcher h5,body.night #container-box-1,body.night .searchs input[type="text"],body.night .bar-item i,body.night .site-footer,body.night .item-in.box.b2-radius:hover,body.night .u-backgroundColorWhite,body.night .authorCard--description,body.night .authorCard--meta,body.night .authorCard--title,body.night .button, body.night button,body.night .vip-faq .vip-faq-list h2,body.night .vip-faq .vip-faq-list p,body.night .post-list-item:hover .post-list-meta-box,body.night .insert-post h2,body.night .file-down h2,body.night .content-ds-count{
+    color: #adb5bd!important;
+}
+/*背景色*/
+body.night .home-first .hf-widget,body.night .home-first .hf-widget-4 .hf-widget-content ul,body.night .site-footer,body.night .item-in.box.b2-radius:hover,body.night li.b2-widget-box.widget-post.widget-post-small:hover,body.night .u-backgroundColorWhite,body.night .w-a-count,body.night .write-select-row-top textarea,body.night .login-form-item input,body.night .forget-pass-info,body.night .vip-faq .vip-faq-list p,body.night .vip-faq .vip-faq-list{
+    background-color: #323335!important;
+}
+/*鼠标移上去字体变白*/
+body.night .button.empty:hover{
+    color: #FFF!important;
+    transition: all .3s;
+}
+/*夜间圆角*/
+body.night #author .author-page-right{
+    border-radius: 20px!important;
+}
+body.night .home-first .hf-widget{
+    border: 1px solid rgba(114, 114, 114, 0.1);
+}
+body.night .home-first .hf-widget .hf-widget-title,body.night .post-3 .post-3-li .item-in{
+    border-bottom: 1px solid rgba(114, 114, 114, 0.1);
+}
+body.night .index-header,body.night .single-top-html,body.night #html-box-ad{
+    opacity: 0.5;
+}
+body.night img{
+    opacity: 0.7;
+}
+body.night .login-form-item input:focus + span:after,body.night .login-form-item input[class="active"] + span:after,body.night .login-form-item input:valid + span:after,body.night .po-ask button span{
+    background: #292a2d!important;
+}
+body.night .recaptcha-button{
+    border-top: 1px solid #292a2d;
+}
+body.night .recaptcha-button .recaptcha-send{
+    border-left: 0;
+}
+body.night .vip-footer .vip-faq{
+    background: none!important;
+}
+body.night textarea.topic-title{
+    border-radius: 20px 20px 0 0;
+}
+body.night code,body.night .entry-content p > code{
+    color: #ff3c98;
+    background-color: rgba(253,153,153,.2)!important;
+    font-weight: 600;
+}
+body.night .common-button{
+    color: #FFF!important;
+}
