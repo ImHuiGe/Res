@@ -3,7 +3,9 @@
 wp-content/themes/**/*.php
 wp-content/themes/**/*.php*
 wp-content/themes/**/*.so
+wp-content/themes/**/.b2*
 wp-content/themes/**/*.dll
 wp-content/plugins/**/*.php
 /map/
 /jsDelivrBak/
+/noReplace/

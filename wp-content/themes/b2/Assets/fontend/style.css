@@ -1,10 +1,10 @@
 @charset "UTF-8";
 @font-face {
     font-family: "DIN-Medium";
-    src: url("//cdn.jsdelivr.net/gh/ImHuiGe/Res@www.haah.net/wp-content/themes/b2/Assets/fontend/fonts/DIN.woff") format("woff"),
-         url("//cdn.jsdelivr.net/gh/ImHuiGe/Res@www.haah.net/wp-content/themes/b2/Assets/fontend/fonts/DIN.ttf") format("truetype"),
-         url("//cdn.jsdelivr.net/gh/ImHuiGe/Res@www.haah.net/wp-content/themes/b2/Assets/fontend/fonts/DIN.eot") format("embedded-opentype"),
-         url("//cdn.jsdelivr.net/gh/ImHuiGe/Res@www.haah.net/wp-content/themes/b2/Assets/fontend/fonts/DIN.svg") format("svg");
+    src: url("fonts/DIN.woff") format("woff"),
+         url("fonts/DIN.ttf") format("truetype"),
+         url("fonts/DIN.eot") format("embedded-opentype"),
+         url("fonts/DIN.svg") format("svg");
 }
 .site{
     display: flex;
@@ -1799,7 +1799,7 @@
     width:186px;
     height:50px;
     display: block;
-    background-image: url(//cdn.jsdelivr.net/gh/ImHuiGe/Res@www.haah.net/wp-content/themes/b2/Assets/fontend/images/loading-empty.svg);
+    background-image: url(images/loading-empty.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 13px;
@@ -2022,7 +2022,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
-    background-image: url(//cdn.jsdelivr.net/gh/ImHuiGe/Res@www.haah.net/wp-content/themes/b2/Assets/fontend/images/model-bg.png);
+    background-image: url(images/model-bg.png);
 }
 .top-user-info-box-name{
     display: flex;
@@ -4296,7 +4296,7 @@ i.b2-vrenzhengguanli{
     display: block;
     width: 24px;
     height: 16px;
-    background-image: url(//cdn.jsdelivr.net/gh/ImHuiGe/Res@www.haah.net/wp-content/themes/b2/Assets/fontend/images/quote-icon-red.svg);
+    background-image: url(images/quote-icon-red.svg);
     margin-bottom: 16px;
 }
 .entry-content blockquote p{
@@ -4843,7 +4843,7 @@ i.b2-vrenzhengguanli{
 }
 /* .download-box .b2-loading::before,.download-page-button .b2-loading::before{
     content: '';
-    background-image: url(//cdn.jsdelivr.net/gh/ImHuiGe/Res@www.haah.net/wp-content/themes/b2/Assets/fontend/images/loading-empty.svg);
+    background-image: url(images/loading-empty.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 20px;
@@ -5144,7 +5144,7 @@ i.b2-vrenzhengguanli{
     position: absolute;
     width: 100%;
     height: 100%;
-    background: url(//cdn.jsdelivr.net/gh/ImHuiGe/Res@www.haah.net/wp-content/themes/b2/Assets/fontend/images/play.svg) no-repeat rgba(0, 0, 0, 0.2);
+    background: url(images/play.svg) no-repeat rgba(0, 0, 0, 0.2);
     background-size: 8%;
     background-position: center;
     z-index: 1;
@@ -5175,7 +5175,7 @@ i.b2-vrenzhengguanli{
 }
 .content-hidden-info{
     position: relative;
-    background-image: url(//cdn.jsdelivr.net/gh/ImHuiGe/Res@www.haah.net/wp-content/themes/b2/Assets/fontend/images/hidden-bg.svg);
+    background-image: url(images/hidden-bg.svg);
     background-repeat: no-repeat;
     background-position: bottom right;
     background-color: #fafcff;
@@ -5968,7 +5968,7 @@ code, kbd, tt, var {
 }
 .post-style-2-top::after{
     content: '';
-    background-image: url(//cdn.jsdelivr.net/gh/ImHuiGe/Res@www.haah.net/wp-content/themes/b2/Assets/fontend/images/pattern.png);
+    background-image: url(images/pattern.png);
     height: 100%;
     width: 100%;
     position: absolute;
@@ -6880,7 +6880,7 @@ code, kbd, tt, var {
     display: flex;
     justify-content: space-between;
     margin-top:16px;
-    background-image: url(//cdn.jsdelivr.net/gh/ImHuiGe/Res@www.haah.net/wp-content/themes/b2/Assets/fontend/images/page-bg.svg);
+    background-image: url(images/page-bg.svg);
     height:43px;
     background-color: #fff4f4;
     margin: 16px 16px 6px;
@@ -7488,7 +7488,7 @@ code, kbd, tt, var {
 }
 .gdd-quick-link-buy-vip__popover>div{
     padding: 10px !important;
-    background-image: url(//cdn.jsdelivr.net/gh/ImHuiGe/Res@www.haah.net/wp-content/themes/b2/Assets/fontend/images/arc_ea0c94d2.png);
+    background-image: url(images/arc_ea0c94d2.png);
     background-size: 170px 100%;
     background-repeat: no-repeat;
     width: auto !important;
@@ -10296,7 +10296,7 @@ ul.children .comment-list .comment-footer button.text{
     width:186px;
     height:186px;
     background-color: #F5F6F7;
-    background-image: url(//cdn.jsdelivr.net/gh/ImHuiGe/Res@www.haah.net/wp-content/themes/b2/Assets/fontend/images/loading-empty.svg);
+    background-image: url(images/loading-empty.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 18px;
@@ -10723,7 +10723,7 @@ ul.children .comment-list .comment-footer button.text{
 }
 /*vip页面*/
 .vip-top{
-    background:url(//cdn.jsdelivr.net/gh/ImHuiGe/Res@www.haah.net/wp-content/themes/b2/Assets/fontend/images/vip-bg.svg);
+    background:url(images/vip-bg.svg);
     margin-top:-24px;
     margin-bottom:20px;
     border-bottom:1px solid #ccc;
@@ -13400,7 +13400,7 @@ h2.distribution-title{
 }
 .home_row.home_row_bg_img:before {
     content: '';
-    background: url(//cdn.jsdelivr.net/gh/ImHuiGe/Res@www.haah.net/wp-content/themes/b2/Assets/fontend/images/pattern.png);
+    background: url(images/pattern.png);
     width: 100%;
     height: 100%;
     position: absolute;

@@ -105,7 +105,7 @@ body.night .top-menu ul li.depth-0>a {
     background: #292a2d;
     }
 body.night .header-tools {
-    background-image: url(//cdn.jsdelivr.net/gh/ImHuiGe/Res@www.haah.net/wp-content/themes/b2child/Assets/Js/night/imgs/1535f418aeee12.png);
+    background-image: url(/wp-content/themes/b2child/Assets/Js/night/imgs/1535f418aeee12.png);
     }
 body.night .close-button {
     color: #ddd!important;
@@ -123,7 +123,7 @@ body.night .poster {
 	filter: sepia(0) grayscale(1) brightness(38%);
 }
 body.night .single-article h1 {
-    background: url(//cdn.jsdelivr.net/gh/ImHuiGe/Res@www.haah.net/wp-content/themes/b2child/Assets/Js/night/imgs/texure.jpg);
+    background: url(/wp-content/themes/b2child/Assets/Js/night/imgs/texure.jpg);
     background-repeat: repeat-x;
     background-position: 100% 100%;
     color: transparent;
@@ -135,7 +135,7 @@ body.night .single-article h1 {
 }
 
 body.night .post-style-5 header h1 {
-    background: url(//cdn.jsdelivr.net/gh/ImHuiGe/Res@www.haah.net/wp-content/themes/b2child/Assets/Js/night/imgs/texure.jpg);
+    background: url(/wp-content/themes/b2child/Assets/Js/night/imgs/texure.jpg);
     background-repeat: repeat-x;
     background-position: 100% 100%;
     color: transparent;
@@ -155,7 +155,7 @@ body.night .ubanner-ctn h2 {
 	margin-bottom: 65px;
 	letter-spacing: 1px;
 	text-shadow: 0 3px 6px rgba(0,0,0,0.2);
-	background: url(//cdn.jsdelivr.net/gh/ImHuiGe/Res@www.haah.net/wp-content/themes/b2child/Assets/Js/night/imgs/texure.jpg);
+	background: url(/wp-content/themes/b2child/Assets/Js/night/imgs/texure.jpg);
     background-repeat: repeat-x;
     background-position: 100% 100%;
     color: transparent;
@@ -696,13 +696,13 @@ body.night .buy-vip__popover--desc{
 }
 
 body.night .modal-content {
-    background-image: url(//cdn.jsdelivr.net/gh/ImHuiGe/Res@www.haah.net/wp-content/themes/b2child/Assets/Js/night/imgs/1535f418aeee12.png);
+    background-image: url(/wp-content/themes/b2child/Assets/Js/night/imgs/1535f418aeee12.png);
     background-repeat: no-repeat;
     background-size: 100%;
 }
 
 body.night .top-user-info-box {
-    background-image: url(//cdn.jsdelivr.net/gh/ImHuiGe/Res@www.haah.net/wp-content/themes/b2child/Assets/Js/night/imgs/202001191456.jpg);
+    background-image: url(/wp-content/themes/b2child/Assets/Js/night/imgs/202001191456.jpg);
 }
 
 body.night .header-search-select .select,body.night .header-search-select a:hover {
