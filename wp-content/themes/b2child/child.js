@@ -1,6 +1,6 @@
 //您自己的js代码写到下面
 //登录文字
-$('.login-box-content').prepend('<div class="login-box-img mobile-hidden"><div class="desc"><div><p><i class="iconfont iconhuo"></i> 只需一步极速注册</p> <p><i class="iconfont iconhuo"></i> 辉哥助您马到成功</p> <p><i class="iconfont iconhuo"></i> 匠心打磨</p> <p><i class="iconfont iconhuo"></i> 服务为王</p></div></div><img src="/vip/img/vein.png" class="vein">')
+$('.login-box-content').prepend('<div class="login-box-img mobile-hidden"><div class="desc"><div><p><i class="iconfont iconhuo"></i> 只需一步极速注册</p> <p><i class="iconfont iconhuo"></i> 辉哥助您马到成功</p> <p><i class="iconfont iconhuo"></i> 匠心打磨</p> <p><i class="iconfont iconhuo"></i> 服务为王</p></div></div><img src="/BlogRes/vip/img/vein.png" class="vein">')
 
 //去除登录的背景
 $("#login-box .modal-content").css("background-image","none");
